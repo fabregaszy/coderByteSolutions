@@ -26,7 +26,7 @@ def TransitivityRelations strArr
           if arr[j][k] == 1 then
             if arr[i][k] == 0 then
               transitive = false
-              connect_needed << "(#{i},#{k})-"
+              connect_needed << "(#{i},#{k})-" if i != k
               arr[i][k] = 1
             end
           end
