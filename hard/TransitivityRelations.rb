@@ -45,4 +45,3 @@ end
 # test drive
 p TransitivityRelations ["(1,1,1)", "(1,0,0)", "(0,1,0)"]
 p TransitivityRelations ["(0,1,0)", "(1,0,1)", "(0,1,0)"]
-p TransitivityRelations ["(0,1,0,0)", "(0,0,1,0)", "(0,0,1,1)", "(0,0,0,1"]
